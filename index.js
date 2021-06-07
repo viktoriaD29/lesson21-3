@@ -1,27 +1,27 @@
 export const getTitle = () => {
   const getText = document.querySelector('.title');
-  const textContent = getText.textContent
-  return textContent
+  const getTextContent = getText.textContent
+  return getTextContent;
 }
 getTitle()
 
 export const getDescription = () => {
   const getAbout = document.querySelector('.about');
-  const innerText = getAbout.innerText
-  return innerText
+  const getInnerText = getAbout.innerText
+  return getInnerText;
 }
 getDescription()
 
 export const getPlans = () => {
   const getPlans = document.querySelector('.plans');
-  const innerHtml = getPlans.innerHTML
-  return innerHtml
+  const getInnerHtml = getPlans.innerHTML
+  return getInnerHtml;
 }
 getPlans()
 
 export const getGoal = () => {
   const getGoal = document.querySelector('.goal')
-  const outerHtml = getGoal.outerHTML
-  return outerHtml
+  const getOuterHtml = getGoal.outerHTML
+  return getOuterHtml;
 }
 getGoal()
