@@ -1,27 +1,23 @@
-export function getTitle() {
+export const getTitle = () => {
   let elemText = document.querySelector('.title');
-  const res = elemText.textContent;
-  return res
-}
+  return elemText.textContent;
+};
 getTitle();
 
-export function getDescription() {
+export const getDescription = () => {
   let elemAbout = document.querySelector('.about');
-  const res2 = elemAbout.innerText;
-  return res2
-}
+  return elemAbout.innerText;
+};
 getDescription();
 
-export function getPlans() {
+export const getPlans = () => {
   let elemPlans = document.querySelector('.plans');
-  const res3 = elemPlans.innerHTML;
-  return res3
-}
+  return elemPlans.innerHTML;
+};
 getPlans();
 
-export function getGoal() {
+export const getGoal = () => {
   let elemGoal = document.querySelector('.goal');
-  const res4 = elemGoal.outerHTML;
-  return res4
-}
+  return elemGoal.outerHTML;
+};
 getGoal();
